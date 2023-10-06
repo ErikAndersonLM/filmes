@@ -1,0 +1,26 @@
+.tela-erro {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    justify-content: center;
+    align-items: center;
+}
+
+.tela-erro h1 {
+    font-weight: bolder;
+    font-size: 148px;
+}
+
+.tela-erro h2 {
+    font-size: 48px;
+}
+
+.tela-erro button {
+    margin-top: 10px;
+    background-color: #3f7bfd;
+    border: none;
+    padding: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+}
